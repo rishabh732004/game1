@@ -1,0 +1,64 @@
+H1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: burlywood;
+}
+
+
+.CHOICES{
+    
+    display: flex;
+    gap: 80px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;    
+}
+
+.CHOICE{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.CHOICE:hover{
+    background-color:aquamarine;
+   
+
+}
+img{
+    width: 120px;
+    height: 120px;
+     border-radius: 50%;
+     object-fit: cover;
+       
+}
+
+.SCORE-BOARD{
+    display: flex;
+    gap: 20PX;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.msg-container{
+    text-align: center;
+   
+}
+
+  #msg {
+    
+    color: #050101;
+    background-color: #f0af0a;
+    font-size: 50px;
+    display: inline;
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  .SCORE{
+    font-size: 80px;
+  }
