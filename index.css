@@ -5,7 +5,7 @@ H1{
 }
 
 
-.CHOICES{
+.choices{
     
     display: flex;
     gap: 80px;
@@ -14,7 +14,7 @@ H1{
     justify-content: center;    
 }
 
-.CHOICE{
+.choice{
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -23,7 +23,7 @@ H1{
     align-items: center;
     justify-content: center;
 }
-.CHOICE:hover{
+.choice:hover{
     background-color:aquamarine;
    
 
@@ -36,7 +36,7 @@ img{
        
 }
 
-.SCORE-BOARD{
+.score-board{
     display: flex;
     gap: 20PX;
     text-align: center;
@@ -59,6 +59,6 @@ img{
     border-radius: 20px;
   }
 
-  .SCORE{
+  .score{
     font-size: 80px;
   }
