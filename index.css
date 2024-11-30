@@ -57,8 +57,9 @@ img{
     display: inline;
     padding: 10px;
     border-radius: 20px;
+    line-height: 100px;
   }
 
   .score{
-    font-size: 80px;
+    font-size: 60px;
   }
